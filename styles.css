@@ -264,6 +264,7 @@ h3 { font-size: 1.35rem; }
   
   justify-self: end;
   align-self: start;
+  transform: translateX(-30px);
 }
 .involvement-card h3 { margin-bottom: 9px; }
 .involvement-card p:not(.eyebrow) { color: #cfcfcf; }
