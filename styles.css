@@ -250,7 +250,7 @@ h3 { font-size: 1.35rem; }
 .split-section {
   display: grid;
   grid-template-columns: 60% 50%;
-  gap: 50px;
+  gap: 38px;
   align-items: start;
 }
 .large-copy { font-size: 1.15rem; }
