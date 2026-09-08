@@ -341,10 +341,20 @@ footer a { text-decoration: none; }
     padding-top: 105px;
   }
   .hero-photo { min-height: 560px; }
-  .experience-card, .split-section, .contact-section {
+  .experience-card,
+  .split-section, 
+  .contact-section {
     grid-template-columns: 1fr;
     gap: 32px;
   }
+   .involvement-card {
+    margin-top: 0;
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-self: stretch;
+  }
+    
   .cert-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -358,6 +368,25 @@ footer a { text-decoration: none; }
   .hero-actions { flex-direction: column; }
   .primary-btn, .secondary-btn { text-align: center; }
   .section { padding: 78px 0; }
+}
+
+   .involvement-card {
+    padding: 24px;
+    border-radius: 18px;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .involvement-card h3 {
+    margin-top: 18px;
+    margin-bottom: 4px;
+  }
+
+  .involvement-card p:not(.eyebrow) {
+    margin-bottom: 14px;
+  }
   .dark-section {
     width: 100%;
     padding-left: 14px;
